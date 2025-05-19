@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Pixelify Sans;
+}
+
+p{
+    color: #CDE6FF;
+    font-size: 18px;
+}
+
+li{
+    font-size: 20px;
+}
+
+.slozka{
+    width: 100px;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body{
+    background-image: url(./img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.info{
+    position: relative;
+    left: 5vw;
+    background-color: #D9D9D9;
+    width: 451px;
+    height: 419px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 0px;
+    border: #1E51C6 5px solid;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.13);
+}
+
+.infoIn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    gap: 0px;
+}
+
+
+.info-left{
+    border-right: #1E51C6 5px solid;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 290px;
+    width: 224px;
+}
+
+.info-right{
+    background-color: #CDE6FF;
+    width: 217px;
+    height: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+
+#pixel{
+    width: 140px;
+}
+
+.footer, .header{
+    background-color: #1E51C6;
+    width: 451px;
+    height: 78.62px;
+    border-radius: 5px;
+    padding: 0;
+    display: flex;
+    padding-left: 20px;
+    justify-content: left;
+    align-items: center;
+}
+
+.odkaz p {
+    font-weight: bold;
+    color: black;
+}
+
+#odkaz1{
+    position:relative;
+    right: 20vw;
+    top: 10vw;
+}
